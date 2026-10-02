@@ -11,7 +11,7 @@ import pandas as pd
 from sklearn.metrics import (
     accuracy_score, precision_score, recall_score,
     f1_score, roc_auc_score
-)  # one function per metric we need to calculate
+)  # one function per metric needed to calculate
 
 # The paper's reported results (Avci & Koca, 2023, Table 3)
 # We hardcode these so we always have something fixed to compare our own results against
